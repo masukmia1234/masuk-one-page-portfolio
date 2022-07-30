@@ -272,8 +272,7 @@ h6 {
 /* --------------------------------------
    3. Navbar
 -----------------------------------------*/
-
-.navbar {
+.navbar{
     background: rgba(50, 50, 50, .2);
     position: absolute;
     top: 0;
@@ -281,49 +280,49 @@ h6 {
     width: 100%;
     border: none;
     margin-bottom: 0;
-    padding-top: 10px;
+    padding-top:10px ;
     padding-bottom: 10px;
     z-index: 999;
 }
-
-.navbar.active-nav {
-    position: fixed;
-    background: #323232;
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
-}
-
-.navbar .menu-toggle {
+.navbar .active-nav{
     position: relative;
     padding: 10px 0;
     float: right;
     z-index: 2;
     background: transparent;
-    border: none;
+    border:none;
     outline: none;
-    cursor: pointer;
+    cursor:pointer;
     display: none;
 }
 
-.navbar .menu-toggle .bar {
+.navbar .navbar-toggle .bar{
     display: block;
     width: 28px;
     height: 2px;
     background-color: #16c0f0;
-}
+  
 
-.navbar .menu-toggle .bar:first-child {
+}
+.navbar .navbar-toggle .bar:first-child{
     width: 14px;
     margin-right: 14px;
 }
 
-.navbar .menu-toggle .bar:nth-child(2) {
+.navbar .navbar-toggle .bar:nth-child(2){
     margin: 6px 0;
+
+
 }
 
-.navbar .menu-toggle .bar:last-child {
+
+.navbar .navbar-toggle .bar:last-child{
     width: 14px;
     margin-left: 14px;
 }
+
+
+
 
 .navbar.menu-active .menu-toggle {
     -webkit-transform: rotate(-45deg);
@@ -344,37 +343,6 @@ h6 {
     margin-left: 0;
 }
 
-.navbar .navbar-brand {
-    position: relative;
-    height: auto;
-    font-size: 22px;
-    font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    color: #fff !important;
-    padding: 10px 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.navbar .navbar-brand span {
-    color: #16c0f0;
-}
-
-.navbar .navbar-nav > li > a,
-.navbar .navbar-nav > li > a:hover,
-.navbar .navbar-nav > li > a:focus {
-    color: #fff;
-    font-weight: 600;
-    padding: 10px 12px;
-    letter-spacing: .5px;
-    text-transform: capitalize;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.navbar .navbar-nav > li > a.active {
-    color: #16c0f0;
-    font-weight: 600;
-}
 
 /*=========== Vertical Navigation ============*/
 .vertical-nav .toggle-menu {
